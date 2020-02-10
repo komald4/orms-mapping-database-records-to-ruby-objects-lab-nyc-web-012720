@@ -61,3 +61,4 @@ def self.new_from_db(row)
   def save
     sql = <<-SQL
       INSERT INTO students (name, grade) 
+end
